@@ -1,0 +1,9 @@
+.container
+  %h2 Stupid Coaching
+  .content.border-rad
+    %p= @question
+    %p{:class => "opacit"} -Your question
+  .content.border-rad
+    %p= @answer
+    %p{:class => "opacit"} -Your coach
+  =link_to "Back", ask_path, class: "btn-back border-rad"
